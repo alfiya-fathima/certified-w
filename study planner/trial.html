@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #eef2f3;
+            margin: 0;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(3, 160px); /* 3 columns */
+            gap: 20px;
+            text-align: center;
+        }
+        .icon-box {
+            width: 160px;
+            height: 160px;
+            background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient Background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            color: #fff; /* Text color */
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .icon-box:hover {
+            background: linear-gradient(135deg, #0056b3, #003d80); /* Darker gradient on hover */
+            transform: scale(1.1); /* Slight zoom effect */
+            box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <a href="pomorodo.html" class="icon-box">🍅<br>Pomorodo</a>
+        <a href="tasks.html" class="icon-box">✅<br>Tasks</a>
+        <a href="progress.html" class="icon-box">📊<br>Progress</a>
+        <a href="notes.html" class="icon-box">📝<br>Notes</a>
+        <a href="flashcards.html" class="icon-box">✉<br>Flashcards</a>
+        <a href="profile.html" class="icon-box">👤<br>Profile</a>
+    </div>
+
+</body>
+</html>

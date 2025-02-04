@@ -1,0 +1,106 @@
+/* Profile Section */
+#profile {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-picture {
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #6200ea;
+  }
+  
+  #changeImageBtn {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #changeImageBtn:hover {
+    background-color: #3700b3;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .info-item label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .info-item input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .info-item button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .info-item button:hover {
+    background-color: #3700b3;
+  }
+  
+  .study-stats {
+    margin-top: 20px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .stat-item {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6200ea;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    color: #555;
+  }

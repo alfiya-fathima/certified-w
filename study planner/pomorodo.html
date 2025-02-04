@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LowkeyLearn - Smart Pomorodo Timer</title>
+  <link rel="stylesheet" href="pomorodo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>LowkeyLearn</h1>
+    <p>Flow through your studies with ease!</p>
+  </header>
+
+  <main>
+    <!-- Pomorodo Timer Section -->
+    <section id="pomorodo">
+      <h2>Smart Pomorodo Timer</h2>
+      <div id="timer">
+        <span id="minutes">25</span>:<span id="seconds">00</span>
+      </div>
+      <div id="timerControls">
+        <button id="startTimer"><i class="fas fa-play"></i> Start</button>
+        <button id="pauseTimer"><i class="fas fa-pause"></i> Pause</button>
+        <button id="resetTimer"><i class="fas fa-redo"></i> Reset</button>
+      </div>
+      <div id="settings">
+        <label for="workDuration">Work Duration (minutes):</label>
+        <input type="number" id="workDuration" value="25" min="1">
+        <label for="breakDuration">Break Duration (minutes):</label>
+        <input type="number" id="breakDuration" value="5" min="1">
+        <button id="applySettings">Apply Settings</button>
+      </div>
+      <div id="progress">
+        <h3>Completed Pomorodos: <span id="completedPomorodos">0</span></h3>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; LowkeyLearn!</p>
+  </footer>
+
+  <script src="pomorodo..js"></script>
+</body>
+</html>

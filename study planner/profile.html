@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create Your Profile</h2>
+        <form id="profileForm">
+            <label for="profilePic">Profile Picture:</label>
+            <input type="file" id="profilePic" accept="image/*">
+            <img id="preview" src="" alt="Profile Preview">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="bio">Bio:</label>
+            <textarea id="bio" rows="4" required></textarea>
+
+            <button type="submit">Save Profile</button>
+        </form>
+
+        <div id="output" class="hidden">
+            <h3>Profile Preview</h3>
+            <img id="outputPic" src="" alt="Profile Picture">
+            <p><strong>Name:</strong> <span id="outputName"></span></p>
+            <p><strong>Email:</strong> <span id="outputEmail"></span></p>
+            <p><strong>Bio:</strong> <span id="outputBio"></span></p>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
